@@ -1,0 +1,52 @@
+body{
+    background-color: #FF3F25;
+    margin: 10px 0px 0px 0px;
+    overflow-x: hidden;
+
+}
+.header{
+    margin: 0px;
+    width: 100%;
+    height: 6vh;
+    background-color: #AD2F1E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 1.5px;
+}
+.title{
+    font-family:"DotGothic16", sans-serif;
+    font-size: 23px;
+    margin-left: 10px;
+}
+.close-button{
+    width: 4vh;
+    height: 4vh;
+    border: solid black 1.5px;
+    background-color: #FFF16F;
+    font-family: "DotGothic16", sans-serif;
+    font-size: 23px;
+    text-align: center;
+    margin-right: 8px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+
+}
+.scroll{
+    width: 20%;
+    height: 150vh;
+    background-color: #FFF16F;
+    border: solid black 1px;
+
+}
+.data-content{
+    width: 80%;
+    height: 150vh;
+    background-color: rgb(251, 251, 243);
+    border: solid black 1px;
+    align-items: center;
+    justify-content: flex-end;
+
+}
