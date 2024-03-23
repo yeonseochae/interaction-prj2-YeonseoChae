@@ -271,7 +271,7 @@ const buildBookItem = function(book){
         </div>  
 
         <div class="poster">
-            <p>${book.poster}</p>
+            <p class="poster-text">${book.poster}</p>
         </div>
         
     </div>`

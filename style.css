@@ -9,7 +9,7 @@ body{
     text-align: center;
 }
 .toy-grid{
-    text-align: left;
+    text-align: center;
 }
 .toy-grid img {
     width: 40%; /* Ensure the image fills the entire container */
@@ -26,28 +26,37 @@ body{
     border: solid 1px black;
     border-radius: 10px;
     padding: 5px;
-    width: 160px;
-}
+    width: 100px;
+    display: inline-block;
+    
+} 
 .toy-info p{
     text-align: left;
-    font-size: 15px;
+    font-size: 13px;
     margin-bottom: 3px;
     margin-top: 3px;
 
 }
 .name{
     font-size: 17px;
+    margin: 5px;
 }
 .poster{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-    height: 20px;
-    width: 54px;
+    height: 19px;
+    width: 47px;
     border: solid 1px black;
-    border-radius: 7px;
+    border-radius: 8px;
     background-color:#F9E096;
-    font-size: 14px;
+    font-weight: 700;
     padding: 1px;
+    display: inline-block;
+}
+.poster-text{
+    margin: 0;
+    font-size: 13px;
+
 }
