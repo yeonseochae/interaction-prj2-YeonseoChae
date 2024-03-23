@@ -5,6 +5,7 @@ const books = [ {
     "year": "1988",
     "price": "$6.99",
     "poster":"Poster",
+    "posterImg": "images/posters/poster.png"
 },
 {
     "toyImg":"images/toys/toy32.png",  
@@ -270,9 +271,9 @@ const buildBookItem = function(book){
             </div>    
         </div>  
 
-        <div class="poster">
-            <p class="poster-text">${book.poster}</p>
-        </div>
+        <button class="poster">${book.poster}</button>
+
+      
         
     </div>`
 }

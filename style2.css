@@ -76,7 +76,7 @@ body{
 }
 .toy-grid{
     text-align: center;
-    height: 280px;
+    height: 260px;
 }
 .toy-grid img {
     width: 45%; /* Ensure the image fills the entire container */
@@ -143,3 +143,40 @@ a{
 a:hover{
     color: rgb(234, 38, 38);
 }
+@media (max-width: 600px) {
+    .book-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(30, 1fr);
+    }
+    .scroll{
+        width: 45%;
+    }
+    .scroll-2{
+        width: 93%;
+    }
+    .scroll-text{
+        font-size: 14px;
+    }
+    .header{
+        height: 4vh;
+    }
+    .title{
+        font-size: 17px;
+    }
+    .toy-grid img {
+        width: 37%;
+        height: 37%;
+    }   
+    .name{
+        font-size: 15px;
+    } 
+    .toy-grid{
+        height: 210px;
+    }
+    .close-button{
+        width: 3vh;
+        height: 3vh;
+        font-size: 17px;
+    }
+}
+

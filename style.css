@@ -49,14 +49,15 @@ body{
     height: 19px;
     width: 47px;
     border: solid 1px black;
-    border-radius: 8px;
+    border-radius: 7px;
     background-color:#F9E096;
     font-weight: 700;
     padding: 1px;
     display: inline-block;
-}
-.poster-text{
-    margin: 0;
     font-size: 13px;
-
+    font-weight: 100;
 }
+.poster-container{
+    visibility: hidden;
+}
+
