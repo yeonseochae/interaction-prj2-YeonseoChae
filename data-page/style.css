@@ -2,7 +2,9 @@ body{
     background-color: #FF3F25;
     margin: 10px 0px 0px 0px;
     overflow-x: hidden;
-
+}
+.activated{
+    overflow: hidden;
 }
 .header{
     margin: 0px;
@@ -53,6 +55,7 @@ body{
     color: blue;
     text-decoration: underline;
     cursor: pointer;
+    font-size: 18px;
 }
 .data-content{
     width: 80%;
@@ -112,6 +115,15 @@ body{
     text-decoration: underline;
     cursor: pointer;
 }
+.hidden-image{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;
+}
+.poster:hover .hidden-image {
+    display: block;
+}
 .poster{
     display: flex;
     justify-content: center;
@@ -126,11 +138,20 @@ body{
     display: inline-block;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     transition: transform 0.3s ease;
+    position: relative;
 }
+.poster img{
+    width: 280px;
+    position: absolute;
+    transform: translate(-130px);
+}
+    
 .poster:hover{
     transform: scale(1.1);
     cursor: pointer;
     background-color:#fc9a74;
+    z-index: 100;
+
 }
 .poster-text{
     margin: 0;
@@ -142,6 +163,16 @@ a{
 }
 a:hover{
     color: rgb(234, 38, 38);
+}
+.pop-up-wrapper{
+    display: none;
+    background-color: cornflowerblue;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+
 }
 @media (max-width: 600px) {
     .book-container{
