@@ -1,0 +1,14 @@
+*{
+    overflow: hidden;
+}
+body{
+    background-color: #FF3F25;
+}
+.body img{
+    width: 1440px;
+}
+.click img{
+    width: 240px;
+    position: absolute;
+    transform: translate(240px, -640px);
+}
